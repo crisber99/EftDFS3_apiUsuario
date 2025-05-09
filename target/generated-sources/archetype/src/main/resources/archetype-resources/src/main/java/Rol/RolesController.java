@@ -1,4 +1,7 @@
-package com.example.api_control_usuario.Rol;
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+package ${package}.Rol;
 
 import java.util.List;
 import java.util.Optional;
@@ -14,7 +17,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.api_control_usuario.Exception.ForoNotFoundException;
+import ${package}.Exception.ForoNotFoundException;
 
 import org.springframework.hateoas.CollectionModel;
 import org.springframework.hateoas.EntityModel;

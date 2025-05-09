@@ -1,8 +1,11 @@
-package com.example.api_control_usuario.Usuario;
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+package ${package}.Usuario;
 
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.api_control_usuario.Exception.ForoNotFoundException;
+import ${package}.Exception.ForoNotFoundException;
 
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

@@ -1,8 +1,8 @@
-package com.example.api_control_usuario.Usuario;
+package it.pkg.Usuario;
 
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.api_control_usuario.Exception.ForoNotFoundException;
+import it.pkg.Exception.ForoNotFoundException;
 
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
